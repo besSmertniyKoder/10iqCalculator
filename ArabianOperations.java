@@ -38,7 +38,7 @@ public class ArabianOperations extends NumbersAbstract {
         try {
             this.result3 = value1 / value2;
         } catch (ArithmeticException e) {
-            System.out.println("А по жопе? Щас самого на ноль поделю!");
+            System.out.println("Вы поделили на ноль!");
         }
 
 

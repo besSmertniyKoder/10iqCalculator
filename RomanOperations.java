@@ -72,7 +72,7 @@ public class RomanOperations extends Object {
             result_int = romes_value1_int / romes_value2_int;
             result_string = convertResultationToRoman(result_int, result_int);
         } catch (ArithmeticException e) {
-            System.out.println("ОПЯТЬ НА НОЛЬ ДЕЛИШЬ ШАКАААААААААЛ?");
+            System.out.println("Вы поделили на ноль!");
         }
     }
 
